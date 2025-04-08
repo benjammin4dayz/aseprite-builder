@@ -54,8 +54,8 @@ jobs:
         matrix:
           os:
             - windows-latest
-            - ubuntu-latest
-            - macOS-latest
+            # - ubuntu-latest
+            # - macOS-latest
         fail-fast: false
     steps:
       - name: Install Dependencies
